@@ -185,4 +185,54 @@
   <template>Las películas más vistas de esta semana son [Película 1], [Película 2] y [Película 3].</template>
 </category>
 
+<category>
+  <pattern>PRECIOS DE BOLETOS</pattern>
+  <template>El boleto general es $50. Hay tarifas preferenciales según funciones y sedes.</template>
+</category>
+
+<category>
+  <pattern>ACEPTAN TARJETA</pattern>
+  <template>Sí, aceptamos tarjetas de débito y crédito en taquilla; la disponibilidad puede variar por sede.</template>
+</category>
+
+<category>
+  <pattern>COMO COMPRAR EN LINEA</pattern>
+  <template>Puedes comprar en la página oficial de la cineteca. Elige la función, cantidad de boletos y confirma el pago.</template>
+</category>
+
+<category>
+  <pattern>QUIERO REEMBOLSO</pattern>
+  <template>Los reembolsos dependen de la política de la sede y del estado de tu compra. Acude a taquilla con tu comprobante.</template>
+</category>
+
+<category>
+  <pattern>ACCESIBILIDAD</pattern>
+  <template>Contamos con accesos para sillas de ruedas y algunas funciones con subtitulado descriptivo. Pregunta en taquilla por apoyos disponibles.</template>
+</category>
+
+<category>
+  <pattern>ESTACIONAMIENTO</pattern>
+  <template>Hay estacionamiento en la sede principal con cupo limitado. Te sugerimos llegar con anticipación.</template>
+</category>
+
+<category>
+  <pattern>SALAS 3D</pattern>
+  <template>Actualmente la mayoría de nuestras proyecciones son 2D. Revisa la cartelera para funciones especiales en otros formatos.</template>
+</category>
+
+<category>
+  <pattern>ESTA SUBTITULADA *</pattern>
+  <template>La versión de <star/> depende de la función. Revisa la cartelera: ahí indicamos “doblada” o “subtitulada”.</template>
+</category>
+
+<category>
+  <pattern>QUIERO FACTURA</pattern>
+  <template>Puedes solicitar factura presentando tu ticket el mismo mes de la compra en el módulo de atención o vía el portal de facturación.</template>
+</category>
+
+<category>
+  <pattern>LLEGUE TARDE</pattern>
+  <template>Por seguridad, el acceso tardío puede restringirse una vez iniciada la función. Pide apoyo en taquilla para reubicar o cambiar función si es posible.</template>
+</category>
+
 </aiml>
