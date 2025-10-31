@@ -235,4 +235,84 @@
   <template>Por seguridad, el acceso tardío puede restringirse una vez iniciada la función. Pide apoyo en taquilla para reubicar o cambiar función si es posible.</template>
 </category>
 
+<!-- CAFETERÍA -->
+<category>
+  <pattern>TIENEN CAFETERIA</pattern>
+  <template>Sí, contamos con una cafetería con café, postres y snacks. También puedes disfrutar de menú especial los fines de semana.</template>
+</category>
+
+<category>
+  <pattern>HAY CAFETERIA</pattern>
+  <template><srai>TIENEN CAFETERIA</srai></template>
+</category>
+
+<category>
+  <pattern>HAY COMIDA EN LA CINETECA</pattern>
+  <template><srai>TIENEN CAFETERIA</srai></template>
+</category>
+
+<!-- MEMBRESÍA -->
+<category>
+  <pattern>MEMBRESIA</pattern>
+  <template>Tenemos una membresía anual que ofrece descuentos en boletos, preventas exclusivas y acceso a eventos especiales. Puedes solicitarla en taquilla o en línea.</template>
+</category>
+
+<category>
+  <pattern>COMO OBTENGO MEMBRESIA</pattern>
+  <template><srai>MEMBRESIA</srai></template>
+</category>
+
+<category>
+  <pattern>CUANTO CUESTA LA MEMBRESIA</pattern>
+  <template><srai>MEMBRESIA</srai></template>
+</category>
+
+<!-- FESTIVAL DE CINE -->
+<category>
+  <pattern>FESTIVAL DE CINE</pattern>
+  <template>Actualmente estamos participando en el [Nombre del Festival]. Durante el festival habrá funciones especiales, invitados y charlas con directores.</template>
+</category>
+
+<category>
+  <pattern>QUE FESTIVAL HAY</pattern>
+  <template><srai>FESTIVAL DE CINE</srai></template>
+</category>
+
+<category>
+  <pattern>HAY ALGUN FESTIVAL</pattern>
+  <template><srai>FESTIVAL DE CINE</srai></template>
+</category>
+
+<!-- TIENDA -->
+<category>
+  <pattern>TIENDA</pattern>
+  <template>Tenemos una tienda con souvenirs, libros y pósters de cine. Está ubicada junto a la entrada principal de la cineteca.</template>
+</category>
+
+<category>
+  <pattern>HAY TIENDA</pattern>
+  <template><srai>TIENDA</srai></template>
+</category>
+
+<category>
+  <pattern>DONDE ESTA LA TIENDA</pattern>
+  <template><srai>TIENDA</srai></template>
+</category>
+
+<!-- REDES SOCIALES -->
+<category>
+  <pattern>REDES SOCIALES</pattern>
+  <template>Puedes seguirnos en nuestras redes sociales oficiales: Instagram, Facebook y X como @CinematecaFundacion para enterarte de todas las novedades.</template>
+</category>
+
+<category>
+  <pattern>TIENEN INSTAGRAM</pattern>
+  <template><srai>REDES SOCIALES</srai></template>
+</category>
+
+<category>
+  <pattern>FACEBOOK DE LA CINETECA</pattern>
+  <template><srai>REDES SOCIALES</srai></template>
+</category>
+
 </aiml>
