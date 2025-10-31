@@ -134,4 +134,55 @@
   <pattern>COMO ESTAS HOY</pattern>
   <template>¡Estoy funcionando a la perfección! Listo para ayudarte a encontrar tu película.</template>
 </category>
+
+<category>
+  <pattern>HORARIOS DE FUNCION *</pattern>
+  <template>Los horarios de <star/> se actualizan diariamente. Puedes consultarlos en la cartelera de la cineteca o en nuestra página oficial.</template>
+</category>
+
+<category>
+  <pattern>PELIS RECOMENDADAS *</pattern>
+  <template>Si te gusta el género <star/>, te recomiendo ver [Película 1], [Película 2] y [Película 3].</template>
+</category>
+
+<category>
+  <pattern>CINE MEXICANO</pattern>
+  <template>Contamos con una gran selección de cine mexicano clásico y contemporáneo. Algunos títulos recomendados son [Película Clásica] y [Película Actual].</template>
+</category>
+
+<category>
+  <pattern>EVENTOS ESPECIALES</pattern>
+  <template>Esta semana tendremos funciones con directores invitados y retrospectivas de [Director Famoso]. ¡No te las pierdas!</template>
+</category>
+
+<category>
+  <pattern>HORARIO DE LA CINETECA</pattern>
+  <template>La cineteca abre de lunes a domingo de 10:00 a 22:00 horas. Las taquillas cierran 15 minutos después de la última función.</template>
+</category>
+
+<category>
+  <pattern>EXPOSICIONES</pattern>
+  <template>Además de películas, tenemos exposiciones temporales sobre cine y fotografía en nuestras salas culturales.</template>
+</category>
+
+<category>
+  <pattern>DESCUENTOS O PROMOCIONES</pattern>
+  <template>Contamos con descuentos para estudiantes, maestros y adultos mayores. También hay promociones en combo de boletos y palomitas los miércoles.</template>
+</category>
+
+<category>
+  <pattern>DIRECTOR *</pattern>
+  <template><star/> es un(a) director(a) reconocido(a) por películas como [Película Destacada] y su estilo característico de [breve descripción].</template>
+</category>
+
+<category>
+  <pattern>DONDE ESTA LA CINETECA</pattern>
+  <template>La cineteca se encuentra en [Dirección]. Puedes llegar en metro, línea [Número de línea], estación [Nombre de estación].</template>
+</category>
+
+<category>
+  <pattern>PELICULAS MAS VISTAS</pattern>
+  <template>Las películas más vistas de esta semana son [Película 1], [Película 2] y [Película 3].</template>
+</category>
+
 </aiml>
